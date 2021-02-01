@@ -46,7 +46,7 @@ class MyRobot(rcj_soccer_robot.RCJSoccerRobot):
                 
                 
                 
-                goal_pos = {'x': .5, 'y': ball_pos['y']}
+                goal_pos = {'x': .55, 'y': ball_pos['y']}
                 player_to_ball_pos = {'x': robot_pos['x'] + player_x_slope, 'y': robot_pos['y'] + player_y_slope}
     
                     # Get angle between the robot and the ball
