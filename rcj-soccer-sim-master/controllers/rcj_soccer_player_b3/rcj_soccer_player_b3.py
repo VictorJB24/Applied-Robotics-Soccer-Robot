@@ -43,10 +43,11 @@ class MyRobot(rcj_soccer_robot.RCJSoccerRobot):
                 
                 player_x_slope = -1 * ball_x_slope
                 player_y_slope = -1 * ball_y_slope
-                
-                
-                
-                goal_pos = {'x': .55, 'y': ball_pos['y']}
+
+                if ball_pos['x'] > .68:
+                    x_real = .73
+                x_real = .55
+                goal_pos = {'x': x_real, 'y': ball_pos['y']}
                 player_to_ball_pos = {'x': robot_pos['x'] + player_x_slope, 'y': robot_pos['y'] + player_y_slope}
     
                     # Get angle between the robot and the ball
@@ -79,6 +80,7 @@ class MyRobot(rcj_soccer_robot.RCJSoccerRobot):
                         right_speed = directionGoal * -10
                         self.left_motor.setVelocity(left_speed)
                         self.right_motor.setVelocity(right_speed)
+                        
                 
                 elif ball_pos['x'] < 0:
                     if directionGoal == 0:
