@@ -5,8 +5,8 @@ sceneTreePerspectives: 000000ff0000000100000002000000c0000000fa01000000020100000
 maximizedDockId: -1
 centralWidgetVisible: 1
 projectionMode: PERSPECTIVE
-renderingMode: WIREFRAME
+renderingMode: PLAIN
 orthographicViewHeight: 1
-textFiles: 0 "controllers/rcj_soccer_player_b3/rcj_soccer_player_b3.py" "controllers/rcj_soccer_player_b1/utils.py"
+textFiles: 1 "controllers/rcj_soccer_player_b3/rcj_soccer_player_b3.py" "controllers/rcj_soccer_player_y1/rcj_soccer_player_y1.py" "controllers/rcj_soccer_player_y3/rcj_soccer_player_y3.py" "controllers/rcj_soccer_player_y2/rcj_soccer_player_y2.py"
 consoles: Console:All:All
 consoles: Console:All:All
