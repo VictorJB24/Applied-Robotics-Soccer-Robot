@@ -5,12 +5,16 @@ sceneTreePerspectives: 000000ff0000000100000002000000c0000000fa01000000020100000
 maximizedDockId: -1
 centralWidgetVisible: 1
 projectionMode: PERSPECTIVE
-renderingMode: PLAIN
+renderingMode: WIREFRAME
 orthographicViewHeight: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 textFiles: 1 "controllers/rcj_soccer_player_b3/rcj_soccer_player_b3.py" "controllers/rcj_soccer_player_y1/rcj_soccer_player_y1.py" "controllers/rcj_soccer_player_y3/rcj_soccer_player_y3.py" "controllers/rcj_soccer_player_y2/rcj_soccer_player_y2.py"
 =======
 textFiles: 1 "controllers/rcj_soccer_player_b1/rcj_soccer_robot.py" "controllers/rcj_soccer_player_b3/rcj_soccer_player_b3.py"
 >>>>>>> parent of 36d77e8... Put distance function in utils, fixed goalie positioing bugs
+=======
+textFiles: 0 "controllers/rcj_soccer_player_b3/rcj_soccer_player_b3.py" "controllers/rcj_soccer_player_b1/utils.py"
+>>>>>>> parent of 384d092... changed other robot files to update attack robot scripts
 consoles: Console:All:All
 consoles: Console:All:All
