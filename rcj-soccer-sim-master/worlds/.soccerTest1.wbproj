@@ -7,6 +7,10 @@ centralWidgetVisible: 1
 projectionMode: PERSPECTIVE
 renderingMode: PLAIN
 orthographicViewHeight: 1
+<<<<<<< HEAD
 textFiles: 1 "controllers/rcj_soccer_player_b3/rcj_soccer_player_b3.py" "controllers/rcj_soccer_player_y1/rcj_soccer_player_y1.py" "controllers/rcj_soccer_player_y3/rcj_soccer_player_y3.py" "controllers/rcj_soccer_player_y2/rcj_soccer_player_y2.py"
+=======
+textFiles: 1 "controllers/rcj_soccer_player_b1/rcj_soccer_robot.py" "controllers/rcj_soccer_player_b3/rcj_soccer_player_b3.py"
+>>>>>>> parent of 36d77e8... Put distance function in utils, fixed goalie positioing bugs
 consoles: Console:All:All
 consoles: Console:All:All

@@ -44,9 +44,9 @@ class MyRobot(rcj_soccer_robot.RCJSoccerRobot):
                 player_x_slope = -1 * ball_x_slope
                 player_y_slope = -1 * ball_y_slope
 
-                if ball_pos['x'] > .45:
+                if ball_pos['x'] > .68:
                     x_real = .73
-                x_real = .68
+                x_real = .55
                 goal_pos = {'x': x_real, 'y': ball_pos['y']}
                 player_to_ball_pos = {'x': robot_pos['x'] + player_x_slope, 'y': robot_pos['y'] + player_y_slope}
     
@@ -61,7 +61,8 @@ class MyRobot(rcj_soccer_robot.RCJSoccerRobot):
                 directionBall = utils.get_direction(ball_angle)
                 directionGoodBall = utils.get_direction(ball_to_robot_pos)
                 
-                distance = utils.get_distance(ball_pos, robot_pos)
+                distance = ((((ball_pos['x'] - robot_pos['x'])**2) + ((ball_pos['y']-robot_pos['y'])**2) )**0.5)
+                
                 # If the robot has the ball right in front of it, go forward,
                 # rotate otherwise
                 
