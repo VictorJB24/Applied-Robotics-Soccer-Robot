@@ -7,6 +7,6 @@ centralWidgetVisible: 1
 projectionMode: PERSPECTIVE
 renderingMode: PLAIN
 orthographicViewHeight: 1
-textFiles: 0 "rcj_soccer_player_b3.py"
+textFiles: 0 "controllers/rcj_soccer_player_b3/bishops_knights_a3.py"
 consoles: Console:All:All
 consoles: Console:All:All
